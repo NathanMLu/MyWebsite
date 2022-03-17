@@ -1,0 +1,33 @@
+:root {
+    --primary-color: #576ca8;
+    --dark-color: #201e1f;
+    --light-color: #dff3e4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--dark-color);
+
+}
+
+body h1 {
+    z-index: 1;
+    color: var(--light-color);
+}
+
+#canvas{
+    position: absolute;
+    -webkit-filter: url("#goo");
+    filter: url("#goo");
+}
+
+#stats{
+    position:absolute;
+    top:0;
+    left:0;
+    z-index: 0;
+}
